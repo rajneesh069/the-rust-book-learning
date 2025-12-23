@@ -66,8 +66,8 @@ pub fn compound_types() {
     let unit: () = (); // () -> unit type
     // - represents an empty value or an empty return type.
     // - expressions implicitly return the unit value if they don’t return any other value.
-    // - in rust almost everything is an expression, functions are declarations/items and their bodies are blocks/expressions, if, else, match, blocks, loops, assignments -> all these are expressions.
-    // - Rust is an expression oriented language.
+    // - in rust almost everything is an expression, function definitions are statements but `if`, `else`, `match`, `blocks`, `loops`, `assignments`, `function calls` -> all these are expressions.
+    // - Rust is an expression based language.
 
     let a = [1, 2, 3, 4]; // arrays -> fixed size, same type, allocated on stack
     // a[0] = 100; // error as 'a' is immutable
