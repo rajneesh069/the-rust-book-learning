@@ -4,6 +4,7 @@ mod chap_04_data_types;
 mod chap_05_functions;
 mod chap_06_control_flow;
 mod chap_06_exercises;
+mod chap_07_ownership;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -29,5 +30,6 @@ fn main() {
     //     Err(err) => println!("{err}"),
     // };
 
-    chap_06_exercises::ex_3();
+    // chap_06_exercises::ex_3();
+    chap_07_ownership::ownership();
 }
