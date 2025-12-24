@@ -3,6 +3,7 @@ mod chap_03_variables_and_mutability;
 mod chap_04_data_types;
 mod chap_05_functions;
 mod chap_06_control_flow;
+mod chap_06_exercises;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -19,5 +20,14 @@ fn main() {
     // let val = chap_06_control_flow::control_flow_with_statements_and_expressions_magic();
     // println!("val: {val}");
     // chap_06_control_flow::control_flow();
-    chap_06_control_flow::control_flow_with_loops();
+    // chap_06_control_flow::control_flow_with_loops();
+    // let val = chap_06_exercises::ex_1();
+    // let val = chap_06_exercises::ex_2(5);
+
+    // match val {
+    //     Ok(val) => println!("{val}"),
+    //     Err(err) => println!("{err}"),
+    // };
+
+    chap_06_exercises::ex_3();
 }
