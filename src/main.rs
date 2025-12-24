@@ -5,6 +5,7 @@ mod chap_05_functions;
 mod chap_06_control_flow;
 mod chap_06_exercises;
 mod chap_07_ownership;
+mod chap_08_borrowing_and_references;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -31,5 +32,6 @@ fn main() {
     // };
 
     // chap_06_exercises::ex_3();
-    chap_07_ownership::ownership();
+    // chap_07_ownership::ownership();
+    chap_08_borrowing_and_references::start();
 }

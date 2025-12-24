@@ -126,3 +126,5 @@ fn multiple_value_returns_using_a_tuple(s: String) -> (usize, String) {
     let s = String::from("Hello, World!");
     return (s.len(), s);
 }
+
+// ? Now this is a very tedious task to return the value from the function each time to again use it in the main scope along with other things we might require - that's why we'll "borrow" and "reference" the value!
