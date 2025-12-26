@@ -7,6 +7,7 @@ mod chap_06_exercises;
 mod chap_07_ownership;
 mod chap_08_borrowing_and_references;
 mod chap_09_slices;
+mod chap_10_structs;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -35,5 +36,6 @@ fn main() {
     // chap_06_exercises::ex_3();
     // chap_07_ownership::ownership();
     // chap_08_borrowing_and_references::start();
-    chap_09_slices::slices();
+    // chap_09_slices::slices();
+    chap_10_structs::start();
 }
