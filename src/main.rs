@@ -10,7 +10,7 @@ mod chap_09_slices;
 mod chap_10_structs;
 mod chap_11_struct_example;
 mod chap_12_methods;
-
+mod chap_13_enums_and_pattern_matching;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -42,5 +42,6 @@ fn main() {
     // chap_09_slices::slices();
     // chap_10_structs::start();
     // chap_11_struct_example::example();
-    chap_12_methods::methods();
+    // chap_12_methods::methods();
+    chap_13_enums_and_pattern_matching::start();
 }
