@@ -39,11 +39,11 @@ pub fn scalar_types() {
 pub fn numeric_operations() {
     let add = 3 + 2; // 5
     println!("Add: {add}");
-    let diff = 2 - 3; // -1 
+    let diff = 2 - 3; // -1
     println!("Diff: {diff}");
     let mul = 2 * 3; // 6
     println!("Mul: {mul}");
-    let quotient = 2 / 3; // 0, integer/integer = integer 
+    let quotient = 2 / 3; // 0, integer/integer = integer
     println!(
         "The value of quotient is truncated towards 0 for integer/integer expressions: {quotient}"
     );

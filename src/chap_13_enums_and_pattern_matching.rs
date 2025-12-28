@@ -142,8 +142,8 @@ pub fn start() {
     // Summary:
     // Structs store data.
     // Enums represent choices.
-    // . works on values.
-    // :: works on names.
+    // "." works on values.
+    // "::" works on names.
 
     // INFO: `NULL` in Rust is in the form of Option<T> enum.
     let some_num = Some(5);
