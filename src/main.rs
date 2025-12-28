@@ -12,6 +12,8 @@ mod chap_11_struct_example;
 mod chap_12_methods;
 mod chap_13_enums_and_pattern_matching;
 mod chap_14_match_control_flow_construct;
+mod chap_15_if_let_and_let_else_syntax;
+
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -45,5 +47,6 @@ fn main() {
     // chap_11_struct_example::example();
     // chap_12_methods::methods();
     // chap_13_enums_and_pattern_matching::start();
-    chap_14_match_control_flow_construct::start();
+    // chap_14_match_control_flow_construct::start();
+    chap_15_if_let_and_let_else_syntax::start();
 }
