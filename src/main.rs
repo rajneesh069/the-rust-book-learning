@@ -14,6 +14,7 @@ mod chap_13_enums_and_pattern_matching;
 mod chap_14_match_control_flow_construct;
 mod chap_15_if_let_and_let_else_syntax;
 // INFO: chap-16 is a theoretical yet an important one, it is inside the assets folder in the form of a markdown file.
+mod chap_17_vectors;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -49,4 +50,5 @@ fn main() {
     // chap_13_enums_and_pattern_matching::start();
     // chap_14_match_control_flow_construct::start();
     // chap_15_if_let_and_let_else_syntax::start();
+    chap_17_vectors::start();
 }
