@@ -89,10 +89,9 @@ fn change(s: &mut String) {
 
 // * Dangling pointer error - when pointers point to such a location where the memory has been given to some other application or has been freed but the pointer still points to the location.
 // fn dangle() -> &String {
-// let s: String = String::from("Hello world!");
-// &s // ! we return a reference to the String, `s`
-// } // Here, `s` goes out of scope and is dropped, so its memory goes away.
-// ! Danger, hence Illegal
+//     let s: String = String::from("Hello world!");
+//     &s //  we return a reference to the String, `s` - ILLEGAL
+// } //  Here, `s` goes out of scope and is dropped, so its memory goes away.
 
 fn non_dangle() -> String {
     let s = String::from("Hello world!");
