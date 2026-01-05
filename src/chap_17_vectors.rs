@@ -55,7 +55,7 @@ pub fn start() {
     for i in &mut v {
         *i += 1; // '*' is the dereference operator.
 
-        // v.push(100); // ILLEGAL: would create overlapping mutable borrows
+        // v.push(100); // ILLEGAL: would create overlapping mutable borrows, because v.push(100) is same as (&mut v).push(100); Its just that Rust auto dereferences it.
 
         // `for i in &mut v` creates ONE mutable borrow of the entire vector `v`
         // that lasts for the "entire duration of the loop".

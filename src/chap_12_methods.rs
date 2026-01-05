@@ -53,6 +53,8 @@ pub fn methods() {
      * The first one looks much cleaner. This automatic referencing behavior works because methods have a clear receiver — the type of self. Given the receiver and name of a method, Rust can figure out definitively whether the method is reading (&self), mutating (&mut self), or consuming (self). The fact that Rust makes borrowing implicit for method receivers is a big part of making ownership ergonomic in practice.
      *  We know we want to define a method, so it will be within the impl Rectangle block. The method name will be "can_hold", and it will take an immutable borrow of another Rectangle as a parameter. We can tell what the type of the parameter will be by looking at the code that calls the method: rect1.can_hold(&rect2) passes in &rect2, which is an immutable borrow to rect2, an instance of Rectangle. This makes sense because we only need to read rect2 (rather than write, which would mean we’d need a mutable borrow), and we want main to retain ownership of rect2 so that we can use it again after calling the can_hold method. The return value of can_hold will be a Boolean, and the implementation will check whether the width and height of self are greater than the width and height of the other Rectangle, respectively. */
 
+    // WARN: Rust applies auto-deref/auto-borrow ONLY for method calls (i.e., functions with a `self`, `&self`, or `&mut self` receiver). Associated functions (no `self`) do NOT get auto-deref because there is no receiver to resolve. Operators (`+`, `-`, `*`, `/`, `+=`, etc.) also do NOT auto-deref; they work on exact types, so explicit dereferencing is required.
+
     let rect1 = Rectangle {
         width: 32,
         height: 23,

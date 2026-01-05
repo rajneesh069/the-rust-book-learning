@@ -16,6 +16,8 @@ mod chap_15_if_let_and_let_else_syntax;
 // INFO: chap-16 is a theoretical yet an important one, it is inside the assets folder in the form of a markdown file.
 mod chap_17_vectors;
 mod chap_18_string;
+mod chap_19_exercises;
+mod chap_19_hashmaps;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -52,5 +54,9 @@ fn main() {
     // chap_14_match_control_flow_construct::start();
     // chap_15_if_let_and_let_else_syntax::start();
     // chap_17_vectors::start();
-    chap_18_string::start();
+    // chap_18_string::start();
+    // chap_19_hashmaps::start();
+    // chap_19_exercises::ex1();
+    // chap_19_exercises::ex2();
+    chap_19_exercises::ex3();
 }
