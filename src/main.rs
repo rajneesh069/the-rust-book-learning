@@ -18,6 +18,7 @@ mod chap_17_vectors;
 mod chap_18_string;
 mod chap_19_exercises;
 mod chap_19_hashmaps;
+mod chap_20_errors;
 fn main() {
     // chap_02_number_guessing_game::run();
     // variables::var();
@@ -58,5 +59,6 @@ fn main() {
     // chap_19_hashmaps::start();
     // chap_19_exercises::ex1();
     // chap_19_exercises::ex2();
-    chap_19_exercises::ex3();
+    // chap_19_exercises::ex3();
+    chap_20_errors::start();
 }
